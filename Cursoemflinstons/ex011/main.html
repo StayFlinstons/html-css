@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ex011</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Imagens com diferentes tamanhos</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/">
+        <source media="(max-width: 1250px)" srcset="imagens/media.png" type="image/">
+        <img src="imagens/grande.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/VØJ x Narvent _Memory Reboot (Over Slowed)__RVk3jW4TeMA.mp3" type="audio/mpeg">
+    </audio>
+    <p>Infelizmente seu navegador não consegue reproduzir o áudio <a href="midia/VØJ x Narvent _Memory Reboot (Over Slowed)__RVk3jW4TeMA.mp3">Clique aqui para fazer download</a> </p>
+    
+
+</body>
+</html>

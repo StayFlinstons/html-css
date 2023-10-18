@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 10</title>
+    <style>
+        @font-face {
+            font-family: idroid;
+            src: url(fontes/idroid.otf);
+        }
+        body {
+            background-color: #84E1AD;
+            margin: 0;
+            padding: 0;
+        }
+        div#menu {
+            background: linear-gradient(to top, #1A5C38, #3CD782);
+            width: 100%;
+            top: 0;
+            height: 300px;
+        }
+        div > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > a:hover{
+            text-decoration: underline;
+            color: rgb(196, 194, 194);
+        }
+        #menu > h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+        }
+        #menu > p {
+            color: white;
+            text-align: center;
+        }
+        #main {
+            margin: 0 auto;
+            width: 80%;
+            background-color: white;
+        }
+        #texto {
+            margin-left: 10px;
+            font-family: idroid;
+            color: #1A5C38;
+        }
+        #texto2 {
+            margin-left: 10px;
+            font-family: idroid;
+            color: #1A5C38;
+            background: linear-gradient(to right, #46ff9963, #b5f5d210);
+        }
+        #texos {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+            <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+            <div id="link" style="bottom: 0;">
+                <a href="#">Home</a>
+                <a href="#">Notícias</a>
+                <a href="#">Curiosidades</a>
+                <a href="#">Fale Conosco</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="main">
+            <h1 id="texto">História do Mascote do Android</h1>
+            <p id="textos">Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+            <h2 id="texto2">A primeira versão</h2>
+            <p id="textos">A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+            <img src="imagens/dan-droids.png" alt="png" style="display: block; margin: 0 auto;">
+
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.divtopo{
+    width: 800px;
+    height: 150px;
+    background-color: #362F2D;
+    margin: 0 auto;
+}
+
+.divmenu{
+    width: 800px;
+    height: 50px;
+    background-color: #94B73E;
+    margin: 0 auto;
+}
+
+.divconteudo{
+    width: 800px;
+    height: 500px;
+    background-color: #B5C0AF;
+    margin: 0 auto;
+}
+
+.divrodape{
+    width: 800px;
+    height: 35px;
+    background-color: #4c4c4c;
+    margin: 0 auto;
+}
+
+.textos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0 auto;
+}

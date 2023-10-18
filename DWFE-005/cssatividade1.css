@@ -1,0 +1,18 @@
+#titulo1{
+    color:  #228B22;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+#titulo2{
+    color: #9ACD32;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+#texto1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 1.5px;
+    text-indent: 5px;
+}
