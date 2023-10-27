@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+main {
+    background-color: azure;
+}
+
+.principal {
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 4px 7px 15px 1px rgba(0, 0, 0, 0.377);
+
+}
+
+.principal h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
